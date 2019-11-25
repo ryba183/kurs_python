@@ -86,3 +86,14 @@ cat passwd | grep false | tr a-z A-Z
 cat passwd | grep false | tr 'false' FALSE
 
 #Zadanie 4.0.2
+
+
+
+
+#4.3.1
+find | egrep /tmp/*abc || echo /tmp/abc nie jest katalogiem
+
+
+#5.0.1
+f() { for i in `seq 1 $1`; do echo $2; done; }
+f 2 a
