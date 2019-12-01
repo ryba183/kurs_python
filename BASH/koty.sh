@@ -12,7 +12,7 @@ f() {
 			echo "Ala ma kota"
 			;;
 		*)
-			echo "Ala ma $1 kotow"
+			echo "Ala ma $1 kotów"
 			;;
 	esac
 }
